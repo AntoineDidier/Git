@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+	text-align:center;
+	font-family: 'MaSuperPolice', Arial;
+}
+
+h3 {
+	color:blue;
+}
+
+img {
+	text-align: right;
+	box-shadow: 10px;
+}
+
+#fin {
+    text-shadow: 2px 2px 4px red;
+}
+
+
+body
+{
+    background-image: url("images/fond.png");
+}
+
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('Starjedi.ttf');
+}
+
+#liseret {
+	float: left;
+    width: 150px;
+    height: 800px;
+    background: grey;
+    margin-top: -30px;
+}
+
+#divContenu {
+	margin-left: 200px;
+}
+
+
+#div1, #div2, #div3 {
+	border: 3px green dashed;
+	width: 30%;
+	min-width: 320px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	min-height: 180px;
+}
+
+
+@media screen and (max-width: 1280px)
+{
+	#liseret {
+		float: left;
+	    width: 5px;
+	    height: 800px;
+	    background: grey;
+	    margin-top: -30px;
+	}
+
+	#divContenu {
+		margin-left: 20px;
+	}
+
+	#div1, #div2, #div3 {
+		border: 3px green dashed;
+		min-width: 320px;
+		display: block;
+		min-height: 180px;
+	}
+}
